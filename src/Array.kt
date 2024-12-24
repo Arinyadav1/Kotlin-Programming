@@ -1,36 +1,40 @@
 fun main(){
-//    println("Arin Yadav");
+
+    /* An array is a collection of elements of the same data type stored in contiguous memory locations */
+
+    //define array
     val name = arrayOf("Arin", "Ankit", "Gunjan", "Prince", "Payal")
-    println(name[1]);
-    for(i in 0 .. name.size-1){
-        println(name[i])
+
+    //print array with iterator
+    for(element in name){
+        println(element)
     }
-    println()
-    for(i in name){
-        println(i)
-    }
+
+    //print array
     println(name.size)
 
+    //check array condition
     if("Ajay" in name){
         println("Exist")
     }else{
         println("Not Exist")
     }
 
-    for((i, v) in name.withIndex()){
-        println("$i - $v")
+    //print index and value by for loop iterator
+    for((index, value) in name.withIndex()){
+        println("$index - $value")
     }
-    println(name.get(3))
-    name.set(2, "Pankaj")
-    println(name.get(2))
-    println(name.size)
 
-    val arr = arrayOfNulls<Int>(5);
-    arr[1] = 2
-    arr[2] = 3
-    for(j in arr.indices-1){
-        println(arr[j])
-    }
+    //print by index
+    println(name[3])
+
+    //update array in index 2
+    name[2] = "Pankaj"
+
+    //print update array index 2
+    println(name[2])
+
+
 
 
 

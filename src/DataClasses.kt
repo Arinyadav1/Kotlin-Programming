@@ -20,6 +20,13 @@ fun main (agrs : Array<String>){
 
 }
 
+/*
+The data class in Kotlin is used to hold the data. This data class contains
+some utility functions that are often derivable from the data. With the help
+of the data class, you don't need to write the boilerplate code. The compiler
+automatically generates all the getter and setter for all the data class properties.
+*/
+
 data class Person1(val id : Int, val name : String){
 
 }

@@ -1,5 +1,12 @@
 fun main(args : Array<String>){
-    var arr : Array<Int> = arrayOf(1, 2, 3)
+    val arr : Array<Int> = arrayOf(1, 2, 3)
+
+    /*
+    An "Exception" refers to an unexpected event that occurs during
+    program execution, disrupting the normal flow of instructions and
+    signaling an error that needs to be handled to prevent the program
+    from crashing
+    */
 
     try{
         println(arr[2])

@@ -1,10 +1,26 @@
 fun main(){
     val lion = Lion1()
     val cat = Cat1()
+    val penguin = Penguin1()
+    val cow = Cow1()
 
-    if(lion is Lion1){
-        println("This is Lion")
+
+    val array = arrayOf(lion, cow, penguin, cat)
+
+    /* Type checking in Kotlin is the process of verifying that a
+    variable or expression is of a certain type. This is done at
+    compile time to prevent errors that would occur if the wrong
+    type of data was used.*/
+
+    //type checking
+    for(obj in array){
+        if(obj is Lion1){
+           obj.eat()
+        } else{
+            (obj as Cow1).eat()
+        }
     }
+
 
 }
 

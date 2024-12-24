@@ -1,13 +1,25 @@
 fun main(args : Array<String>){
-    print(A1.name)
-    B1.print()
+    print(ObjectOne.name)
+    ObjectTwo.print()
+
+    ObjectOne.name = "I am Arin Yadav"
+
+    print(ObjectOne.name)
+    ObjectTwo.print()
 }
 
-object A1{
-    val name = "Myself Priyanka"
+/*
+ The object keyword is used to create a singleton object, which is
+ a class that has only one instance. This instance is created and
+ managed by the Kotlin runtime, ensuring that there is only ever
+ one instance of the object in your application.
+*/
+
+object ObjectOne{
+    var name = "Myself Priyanka"
 }
 
-object B1{
+object ObjectTwo{
     val country = "India"
 
     fun print(){

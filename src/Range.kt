@@ -1,12 +1,24 @@
 fun main(){
-    // user of Range
-    // we can check particular number lie in number range
-//    var num = 6
-//    var checkRange = num in 1..5
-//    println(checkRange)
 
-    var num = 5
+    /*
+    A range is a collection of consecutive values defined by a
+    starting and ending point. It's a convenient way to represent
+    a sequence of elements, especially when iterating over them.
+    */
+
+    numberLoop()
+}
+
+
+fun numberLoop(){
+    for(i in 1..10){
+        checkInRange(i)
+    }
+}
+
+
+fun checkInRange(num : Int){
     print("$num number lie in range 1 < until < 5 is ")
-    var checkRange = num in 1 .. 5
+    val checkRange = num in 1..5
     println(checkRange)
 }

@@ -1,19 +1,25 @@
 fun main(args : Array<String>){
 
-    val nums = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-    val list = nums.filter{it % 2 != 0} // filter the value in list
+    /*
+    A set of built-in functions that allow you to manipulate
+    and transform data stored within collections like lists, sets,
+    and maps, enabling operations like filtering, mapping, reducing,
+    and more, all in a concise and functional style*/
+
+    val numb = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+    val list = numb.filter{it % 2 != 0} // filter the value in list
     println(list)
 
-    println(nums.map{it * it}) // convert one form to another form element
+    println(numb.map{it * it}) // convert one form to another form element
 
-    println(nums.forEach { println(it) }) // iterate in all element one by one
+    println(numb.forEach { println(it) }) // iterate in all element one by one
 
-    val userList : List<User> = listOf(
-        User(1, "A"),
-        User(2, "B"),
-        User(3, "C"),
-        User(4, "D"),
-        User(5, "E")
+    val userList : List<User1> = listOf(
+        User1(1, "A"),
+        User1(2, "B"),
+        User1(3, "C"),
+        User1(4, "D"),
+        User1(5, "E")
     )
 
     println(userList.filter { it.id == 2 }) // filter the value in list
@@ -28,6 +34,6 @@ fun main(args : Array<String>){
     println(onlineUser)
 }
 
-data class User(val id : Int, val name : String)
+data class User1(val id : Int, val name : String)
 
 data class OnlineUser(val id : Int, val name : String, val type : String)

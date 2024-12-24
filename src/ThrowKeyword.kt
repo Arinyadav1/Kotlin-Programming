@@ -4,6 +4,12 @@ fun main(args : Array<String>){
 
 }
 
+/*
+The throw keyword is used to explicitly throw an exception.
+This signals that an abnormal condition has occurred during
+the program's execution.
+*/
+
 fun createUserList(count : Int){
     if(count < 0){
         throw IllegalArgumentException("Count must be greater than 0")

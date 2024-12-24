@@ -1,12 +1,22 @@
 fun main(){
-    val obj = RealmePhone("Arin")
+    val obj = RealmePhone()
     obj.company = "Realme"
     obj.modal = "Realme 12 Pro Max"
     obj.price = 30000
+    
 
     obj.allPhoneDetails()
     obj.launchDate()
+
+
 }
+
+/*
+ "Inheritance" is a core object-oriented concept that allows
+ a new class (called a subclass or derived class) to inherit
+ properties and methods from an existing class
+ (called a superclass or base class)
+*/
 
 open class Device(){
     var modal : String = ""
@@ -18,10 +28,10 @@ open class Device(){
 
 }
 
-class RealmePhone(val type : String) : Device(){
+class RealmePhone() : Device(){
 
     override fun launchDate(){
-        println("9 Septeber 2024")
+        println("9 September 2024")
         super.launchDate()
     }
 
@@ -29,6 +39,7 @@ class RealmePhone(val type : String) : Device(){
         println(modal)
         println(company)
         println(price)
+
     }
 }
 

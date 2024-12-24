@@ -1,18 +1,23 @@
-import java.util.*;
 fun main(){
-//    val obj = Calculator()
-//    println(obj.add(6,3))
-    val p1 = person("Ankit", 21)
+
+    val p1 = Person("Ankit", 21)
     println(p1.name)
     p1.age = 30
 
 
 
 }
-class person(nameParam : String, ageParam : Int){
+
+/*
+A "getter" is a function that retrieves the value of a property,
+while a "setter" is a function that allows you to modify the
+value of a property
+*/
+
+class Person(nameParam : String, ageParam : Int){
     var name : String = nameParam
         get() {
-            return field.toLowerCase()
+            return field.toUpperCase()
         }
     var age : Int = ageParam
         set(value) {
@@ -27,16 +32,3 @@ class person(nameParam : String, ageParam : Int){
 
 
 }
-
-
-
-
-//class Calculator{
-//    lateinit var  name : String
-//    fun add(a : Int, b : Int) : Int {
-//        return a+b
-//    }
-//    fun multiple(a : Int, b : Int) : Int {
-//        return a*b
-//    }
-//}

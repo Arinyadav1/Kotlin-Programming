@@ -1,9 +1,13 @@
 fun main(){
     // while loop
+
+    /*
+    A while loop is a control flow statement that allows code to be
+    executed repeatedly based on a given Boolean condition
+    */
     var i = 1;
-    var tableOf = 2;
+    val tableOf = 2;
     while (i <= 10){
-//        var result =  tableOf * i;
         println("$tableOf x $i = ${tableOf*i}");
         i++;
     }

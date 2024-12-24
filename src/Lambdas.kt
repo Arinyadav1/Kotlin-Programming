@@ -1,7 +1,15 @@
 fun main(args : Array<String>){
 
+    /*
+    A lambda function (or simply "lambda") is an anonymous function
+    that can be treated as a value. It can be passed as an argument to
+    other functions, stored in a variable, or returned from a function
+*/
+
 //    var fn : (a : Int, b : Int) -> Int = ::sum1
     calculator1(5,6) { a, b -> a + b }
+
+    //this all represent different type of lambdas
 
     val lambdas = {a : Int , b : Int -> a + b}
     val lambdas1 : (Int, Int) -> Int = {a, b -> a+b}

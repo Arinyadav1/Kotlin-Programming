@@ -1,25 +1,25 @@
 fun main(agrs : Array<String>){
-    var name : String? = "Arin Yadav"
 
-    var gender : String? = null
-    var age : Int? = null
+    /*
+    "Null Safety" is a language feature that aims to eliminate
+    the risk of "NullPointerExceptions" by explicitly differentiating
+    between variables that can hold null values (nullable types)
+    and those that cannot (non-nullable types)
+    */
 
+    var name : String? = null
 
-    if(gender != null){
-        println(gender.toUpperCase())
-    }
-    println(gender?.toUpperCase())
+    println(name?.toUpperCase())
 
-
-    name?.let {
-        println("1 $gender")
+    name.let {
+        println("1 $name")
         println("2 $it")
     }
 
-    var NotValueDefine  = gender?: "NA"
+    val NotValueDefine  = name?: "NA"
     println(NotValueDefine)
 
-    var value = gender?.toUpperCase()
+    val value = name?.toUpperCase()
     println(value)
 
 }

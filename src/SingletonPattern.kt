@@ -1,5 +1,12 @@
 fun main(args : Array<String>){
-    for(i in 1 until  5){
+
+    /*
+    A "Singleton" refers to a design pattern where only one
+    instance of a class can exist throughout the entire application,
+    providing a global access point to that single instance.
+    */
+
+    for(i in 1..<5){
         SharingWidget.inctwitter()
     }
     for(i in 1 .. 20){
@@ -9,6 +16,12 @@ fun main(args : Array<String>){
         SharingWidget.inclinkedin()
     }
 
+
+
+    val obj = SharingWidget
+
+    obj.inctwitter()
+    obj.inctwitter()
     SharingWidget.displayShare()
 }
 

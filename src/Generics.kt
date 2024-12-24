@@ -1,15 +1,18 @@
 fun main(args : Array<String>){
-    val obj = IntContainer(4)
-    println(obj.getValue())
-    obj.setValue(5)
-    println(obj.getValue())
 
-    val genericDeclaration = Container<Int>(787928)
+    val genericDeclaration = Container<String>("Arin Yadav")
     println(genericDeclaration.getValue())
 
 }
 
-class Container<T>( var data : T){
+/*
+Generics allow you to write flexible and reusable code by
+parameterizing types. This means you can define classes, interfaces,
+and functions that work with a variety of data types while maintaining
+type safety
+*/
+
+class Container<T>(private var data : T){
     fun setValue(value : T){
         data = value
     }
@@ -18,11 +21,3 @@ class Container<T>( var data : T){
     }
 }
 
-class IntContainer( var data : Int){
-    fun setValue(value : Int){
-        data = value
-    }
-    fun getValue() : Int{
-        return data
-    }
-}

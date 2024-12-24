@@ -1,9 +1,14 @@
 fun main(){
-    var num1 = 5;
+    val num1 = 5;
 
-    var factorial = factorialNumber(num1)
+    val factorial = factorialNumber(num1)
     println(factorial)
 }
+
+/* A function is a self-contained block of code that performs a
+specific task. It can take input parameters and return a value.
+*/
+
 fun factorialNumber(num: Int):Int{
     var result = 1
 
@@ -12,9 +17,3 @@ fun factorialNumber(num: Int):Int{
     }
    return result
 }
-
-
-//fun addTwoNumber(a:Int, b:Int):Int{
-//    var sum = a + b;
-//    return sum
-//}

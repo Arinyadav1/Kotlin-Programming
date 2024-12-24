@@ -8,9 +8,18 @@ private fun printAnimal(animals : Array<Animalfood>){
     }
 }
 
+/*
+An "interface" is a blueprint defining a set of abstract methods
+and properties that a class must implement, essentially acting as a
+contract for how a class should behave without providing concrete
+implementation details; it allows a class to inherit multiple behaviors
+by implementing multiple interfaces.
+*/
+
 private interface Animalfood{
      fun foodType()
 }
+
 
 private abstract class Animal : Animalfood{
     abstract fun eat()

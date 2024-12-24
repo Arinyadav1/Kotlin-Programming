@@ -1,6 +1,14 @@
 fun main (){
+
     // use of when condition it is like a switch condition
-    var weekDay = "Wednesday"
+
+    /*
+    when is a keyword used to create a conditional control flow
+    statement, essentially acting as a switch statement in other
+    languages like Java,
+    */
+
+    val weekDay = "Wednesday"
     var result = when (weekDay) {
         "Monday" -> ("1st Day Of Week")
         "Tuesday" -> ("2nd Day Of Week")

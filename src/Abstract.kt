@@ -1,10 +1,17 @@
 fun main(){
-    var rectangle = Rectangle(4.0,5.0)
+    val rectangle = Rectangle(4.0,5.0)
     rectangle.display()
     println(rectangle.area())
     rectangle.print()
 
+
 }
+
+/*
+Abstraction, in the context of OOP, refers to the ability to
+hide complex implementation details and show only the necessary
+features of an object
+*/
 
 abstract class Form{
     lateinit var name : String
@@ -14,7 +21,7 @@ abstract class Form{
     }
 }
 
-class Rectangle(val length : Double, val width : Double) : Form(){
+class Rectangle(private val length : Double, private val width : Double) : Form(){
     override fun area(): Double {
         return length * width
     }

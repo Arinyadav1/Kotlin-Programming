@@ -1,4 +1,11 @@
 fun main(args : Array<String>){
+
+    /*
+    Scope functions are a set of functions available in Kotlin
+    that allow for concise and convenient operations on objects
+    within a specific scope.
+    */
+
     val U1 = UserData()
     U1.age = 10
     U1.name = "Riya"
@@ -23,7 +30,7 @@ fun main(args : Array<String>){
 
     U1.run {
         age = 46
-        name = "Usha"
+        name = "Mrs. Usha"
     }
     println(U1)
 
