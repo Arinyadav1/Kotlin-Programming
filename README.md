@@ -127,7 +127,7 @@
       </il>
     </td>
     <td>
-      <p><i>lass is a blueprint for creating objects. It defines a structure that encapsulates data (properties) and behavior (functions)</p>
+      <p><i>Class is a blueprint for creating objects. It defines a structure that encapsulates data (properties) and behavior (functions)</p>
     </td>
   </tr>
 
