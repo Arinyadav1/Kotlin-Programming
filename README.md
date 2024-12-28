@@ -7,10 +7,11 @@
   <br>
 </p>
 
-### Explore All Topics
+## Explore All Topics
+
 <table>
   <tr>
-    <td>
+    <td width="210">
       <il>
         <li><a href ="#">Abstract</a></li>
       </il>
@@ -54,7 +55,7 @@
   </tr>
 
   <tr>
-    <td width="220">
+    <td >
       <il>
         <li><a href ="#">Collection Functions</a></li>
       </il>
