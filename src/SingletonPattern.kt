@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
 
     /*
     A "Singleton" refers to a design pattern where only one

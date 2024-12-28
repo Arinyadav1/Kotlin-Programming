@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
     createUserList(50)
     createUserList(-1)
 

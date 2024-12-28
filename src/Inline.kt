@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
     countTime{
         loop(10000000)
     }

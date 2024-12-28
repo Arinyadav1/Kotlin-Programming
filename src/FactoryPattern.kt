@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
     val burger = Burger.Factory.create("Turkey Burger")
     println(burger)
 

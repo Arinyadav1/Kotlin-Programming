@@ -1,6 +1,6 @@
 import kotlin.math.pow
 
-fun main(args : Array<String>){
+fun main(){
     add(3.0, 5.0)
     power(3.0, 5.0)
 

@@ -1,5 +1,5 @@
 fun main(){
-    val num1 = 5;
+    val num1 = 5
 
     val factorial = factorialNumber(num1)
     println(factorial)

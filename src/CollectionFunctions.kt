@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
 
     /*
     A set of built-in functions that allow you to manipulate

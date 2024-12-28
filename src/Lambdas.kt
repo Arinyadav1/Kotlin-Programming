@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
 
     /*
     A lambda function (or simply "lambda") is an anonymous function
@@ -23,7 +23,7 @@ fun main(args : Array<String>){
     //multiline lambdas
     val multiline = {
         println("I am Multiline lambdas")
-        val a = 4 + 5
+        4 + 5
     }
 
     println(multiline())

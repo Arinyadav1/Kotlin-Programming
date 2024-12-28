@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
 
     /*
     In Kotlin programming, a "MutableMap" is an interface that

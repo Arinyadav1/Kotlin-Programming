@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
     print(ObjectOne.name)
     ObjectTwo.print()
 

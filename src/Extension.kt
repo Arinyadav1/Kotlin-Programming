@@ -1,7 +1,7 @@
-fun main(args : Array<String>){
+fun main(){
 //    println(234.formatingString("Arin"))
     val obj  = User("Arin Yadav")
-    val age : Int = 20
+
     obj.formatingString()
 
 

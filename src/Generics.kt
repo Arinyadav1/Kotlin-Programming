@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
 
     val genericDeclaration = Container<String>("Arin Yadav")
     println(genericDeclaration.getValue())

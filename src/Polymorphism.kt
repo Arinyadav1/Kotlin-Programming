@@ -28,12 +28,12 @@ open class Shape{
 
 class Circle(var radius : Double) : Shape(){
     override fun area() : Double{
-        return Math.PI * radius * radius;
+        return Math.PI * radius * radius
     }
 }
 
 class Square(var side : Double) : Shape(){
     override fun area() : Double{
-        return side * side;
+        return side * side
     }
 }

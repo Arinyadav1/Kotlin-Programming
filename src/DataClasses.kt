@@ -1,4 +1,4 @@
-fun main (agrs : Array<String>){
+fun main (){
     val P1 = Person1(1, "Ankit")
     val P2 = Person1(2, "Pankaj")
 

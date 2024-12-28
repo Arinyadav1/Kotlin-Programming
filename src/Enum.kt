@@ -1,4 +1,4 @@
-fun main (args : Array<String>){
+fun main (){
     //it is use for values
     val G1 = Gender.Female
     println(G1)

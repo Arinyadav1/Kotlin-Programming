@@ -1,8 +1,7 @@
-import javax.swing.text.View
 
 fun main(){
-    val ward = Student("Rohan", 15, );
-    val ward2 = Student("Riha", 10);
+    val ward = Student("Rohan", 15, )
+    val ward2 = Student("Riha", 10)
     println(ward.name)
     println(ward2.name)
 

@@ -1,4 +1,4 @@
-fun main(args : Array<String>){
+fun main(){
 
     /*
     A "MutableList" in Kotlin is a data structure that represents a

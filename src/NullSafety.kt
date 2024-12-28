@@ -1,4 +1,4 @@
-fun main(agrs : Array<String>){
+fun main(){
 
     /*
     "Null Safety" is a language feature that aims to eliminate

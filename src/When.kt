@@ -9,7 +9,7 @@ fun main (){
     */
 
     val weekDay = "Wednesday"
-    var result = when (weekDay) {
+    val result = when (weekDay) {
         "Monday" -> ("1st Day Of Week")
         "Tuesday" -> ("2nd Day Of Week")
         "Wednesday" -> ("3th Day Of Week")

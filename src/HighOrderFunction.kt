@@ -1,7 +1,6 @@
-import kotlin.math.pow
-fun main(args : Array<String>){
+fun main(){
 
-    var fn : (a : Double, b : Double) -> Double = ::sum
+    val fn : (a : Double, b : Double) -> Double = ::sum
     println(fn(4.0, 4.0))
 
     calculator(10.0, 5.0, ::sum)
